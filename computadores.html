@@ -1,0 +1,16 @@
+//how to make a redirection page in a button?
+
+<button onclick="location.href = 'www.yoursite.com';" id="myButton" class="float-left submit-button" >Home</button>
+
+
+<button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
+    };
+</script>
+
+
+
+
